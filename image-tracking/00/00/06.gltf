@@ -1,0 +1,99 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "2",
+            "rotation" : [
+                0.375233918428421,
+                -0.0015341633697971702,
+                0.002190147526562214,
+                0.92692631483078
+            ],
+            "scale" : [
+                0.12660552561283112,
+                0.1266055554151535,
+                0.1266055554151535
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Scan.015",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 121413,
+            "max" : [
+                14.768078804016113,
+                15.994466781616211,
+                12.49970531463623
+            ],
+            "min" : [
+                -12.558539390563965,
+                -9.407281875610352,
+                -19.263973236083984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 121413,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 121413,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1456956,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1456956,
+            "byteOffset" : 1456956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 485652,
+            "byteOffset" : 2913912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3399564,
+            "uri" : "06.bin"
+        }
+    ]
+}
